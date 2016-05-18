@@ -21,6 +21,10 @@
 
 - (void)dev{
     NSLog(@"dev");
+    
+    
+    
+    
 }
 
 - (void)test{
