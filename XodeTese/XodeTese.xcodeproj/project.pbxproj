@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3362D120170A46FAC2CE43C8 /* libPods-XodeTeseUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FB3A098ABB1EEA0BCE11DF /* libPods-XodeTeseUITests.a */; };
 		37FB4B3C1CEC6AC400F83846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB4B3B1CEC6AC400F83846 /* main.m */; };
 		37FB4B3F1CEC6AC400F83846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB4B3E1CEC6AC400F83846 /* AppDelegate.m */; };
 		37FB4B421CEC6AC400F83846 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB4B411CEC6AC400F83846 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		37FB4B4A1CEC6AC400F83846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FB4B481CEC6AC400F83846 /* LaunchScreen.storyboard */; };
 		37FB4B551CEC6AC400F83846 /* XodeTeseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB4B541CEC6AC400F83846 /* XodeTeseTests.m */; };
 		37FB4B601CEC6AC400F83846 /* XodeTeseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB4B5F1CEC6AC400F83846 /* XodeTeseUITests.m */; };
+		629ADA49FF83F21D7928F8BF /* libPods-XodeTese.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3617666347B9C48F7B5AC8E /* libPods-XodeTese.a */; };
+		99E44FE8A36695ED54CC9E6B /* libPods-XodeTeseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0DB0777ED31AECE90EAE1E /* libPods-XodeTeseTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E1744DCBF518DEBE6BB095 /* Pods-XodeTese.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XodeTese.release.xcconfig"; path = "Pods/Target Support Files/Pods-XodeTese/Pods-XodeTese.release.xcconfig"; sourceTree = "<group>"; };
+		1EA84659ACB368D3A1672746 /* Pods-XodeTeseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XodeTeseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XodeTeseUITests/Pods-XodeTeseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		37FB4B371CEC6AC400F83846 /* XodeTese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XodeTese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FB4B3B1CEC6AC400F83846 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37FB4B3D1CEC6AC400F83846 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		37FB4B5B1CEC6AC400F83846 /* XodeTeseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XodeTeseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FB4B5F1CEC6AC400F83846 /* XodeTeseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XodeTeseUITests.m; sourceTree = "<group>"; };
 		37FB4B611CEC6AC400F83846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64FB3A098ABB1EEA0BCE11DF /* libPods-XodeTeseUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XodeTeseUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BF1ADDD2D6965EE296D045 /* Pods-XodeTeseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XodeTeseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XodeTeseTests/Pods-XodeTeseTests.release.xcconfig"; sourceTree = "<group>"; };
+		99D1FF4FE0333E750CEEF305 /* Pods-XodeTeseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XodeTeseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XodeTeseUITests/Pods-XodeTeseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D0DB0777ED31AECE90EAE1E /* libPods-XodeTeseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XodeTeseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF81FACBF83A3F4AFD8BAF0 /* Pods-XodeTese.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XodeTese.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XodeTese/Pods-XodeTese.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F941B6297EA658E03DF05F /* Pods-XodeTeseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XodeTeseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XodeTeseTests/Pods-XodeTeseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3617666347B9C48F7B5AC8E /* libPods-XodeTese.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XodeTese.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629ADA49FF83F21D7928F8BF /* libPods-XodeTese.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E44FE8A36695ED54CC9E6B /* libPods-XodeTeseTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3362D120170A46FAC2CE43C8 /* libPods-XodeTeseUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				37FB4B531CEC6AC400F83846 /* XodeTeseTests */,
 				37FB4B5E1CEC6AC400F83846 /* XodeTeseUITests */,
 				37FB4B381CEC6AC400F83846 /* Products */,
+				93B1817BAA908801EAD3641A /* Pods */,
+				71821D4144C2DC1920F73DF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = XodeTeseUITests;
 			sourceTree = "<group>";
 		};
+		71821D4144C2DC1920F73DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3617666347B9C48F7B5AC8E /* libPods-XodeTese.a */,
+				9D0DB0777ED31AECE90EAE1E /* libPods-XodeTeseTests.a */,
+				64FB3A098ABB1EEA0BCE11DF /* libPods-XodeTeseUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93B1817BAA908801EAD3641A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBF81FACBF83A3F4AFD8BAF0 /* Pods-XodeTese.debug.xcconfig */,
+				04E1744DCBF518DEBE6BB095 /* Pods-XodeTese.release.xcconfig */,
+				D0F941B6297EA658E03DF05F /* Pods-XodeTeseTests.debug.xcconfig */,
+				77BF1ADDD2D6965EE296D045 /* Pods-XodeTeseTests.release.xcconfig */,
+				1EA84659ACB368D3A1672746 /* Pods-XodeTeseUITests.debug.xcconfig */,
+				99D1FF4FE0333E750CEEF305 /* Pods-XodeTeseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FB4B641CEC6AC400F83846 /* Build configuration list for PBXNativeTarget "XodeTese" */;
 			buildPhases = (
+				B924291C962CE8AF64CB0EE4 /* 📦 Check Pods Manifest.lock */,
 				37FB4B331CEC6AC400F83846 /* Sources */,
 				37FB4B341CEC6AC400F83846 /* Frameworks */,
 				37FB4B351CEC6AC400F83846 /* Resources */,
+				56CAEA351FCF2710795E8B96 /* 📦 Embed Pods Frameworks */,
+				4EABDFF70E1D36D4CE492013 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FB4B671CEC6AC400F83846 /* Build configuration list for PBXNativeTarget "XodeTeseTests" */;
 			buildPhases = (
+				342C75003C1C7511DDEB00A9 /* 📦 Check Pods Manifest.lock */,
 				37FB4B4C1CEC6AC400F83846 /* Sources */,
 				37FB4B4D1CEC6AC400F83846 /* Frameworks */,
 				37FB4B4E1CEC6AC400F83846 /* Resources */,
+				E96229C3CD9B6083DD397A78 /* 📦 Embed Pods Frameworks */,
+				4CDAFB8C991CD15FF7417F8D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FB4B6A1CEC6AC400F83846 /* Build configuration list for PBXNativeTarget "XodeTeseUITests" */;
 			buildPhases = (
+				2CC57360B087FF099E88A172 /* 📦 Check Pods Manifest.lock */,
 				37FB4B571CEC6AC400F83846 /* Sources */,
 				37FB4B581CEC6AC400F83846 /* Frameworks */,
 				37FB4B591CEC6AC400F83846 /* Resources */,
+				C85DC8EB50A84D8CB356F08F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +312,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC57360B087FF099E88A172 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		342C75003C1C7511DDEB00A9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CDAFB8C991CD15FF7417F8D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XodeTeseTests/Pods-XodeTeseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EABDFF70E1D36D4CE492013 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XodeTese/Pods-XodeTese-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56CAEA351FCF2710795E8B96 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XodeTese/Pods-XodeTese-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B924291C962CE8AF64CB0EE4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C85DC8EB50A84D8CB356F08F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XodeTeseUITests/Pods-XodeTeseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E96229C3CD9B6083DD397A78 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XodeTeseTests/Pods-XodeTeseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37FB4B331CEC6AC400F83846 /* Sources */ = {
@@ -411,6 +582,7 @@
 		};
 		37FB4B651CEC6AC400F83846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF81FACBF83A3F4AFD8BAF0 /* Pods-XodeTese.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XodeTese/Info.plist;
@@ -422,6 +594,7 @@
 		};
 		37FB4B661CEC6AC400F83846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E1744DCBF518DEBE6BB095 /* Pods-XodeTese.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XodeTese/Info.plist;
@@ -433,6 +606,7 @@
 		};
 		37FB4B681CEC6AC400F83846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F941B6297EA658E03DF05F /* Pods-XodeTeseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XodeTeseTests/Info.plist;
@@ -445,6 +619,7 @@
 		};
 		37FB4B691CEC6AC400F83846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77BF1ADDD2D6965EE296D045 /* Pods-XodeTeseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XodeTeseTests/Info.plist;
@@ -457,6 +632,7 @@
 		};
 		37FB4B6B1CEC6AC400F83846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA84659ACB368D3A1672746 /* Pods-XodeTeseUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XodeTeseUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +645,7 @@
 		};
 		37FB4B6C1CEC6AC400F83846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D1FF4FE0333E750CEEF305 /* Pods-XodeTeseUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XodeTeseUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +675,7 @@
 				37FB4B661CEC6AC400F83846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37FB4B671CEC6AC400F83846 /* Build configuration list for PBXNativeTarget "XodeTeseTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +684,7 @@
 				37FB4B691CEC6AC400F83846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37FB4B6A1CEC6AC400F83846 /* Build configuration list for PBXNativeTarget "XodeTeseUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +693,7 @@
 				37FB4B6C1CEC6AC400F83846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
