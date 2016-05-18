@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"release");
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)dev{
+    NSLog(@"dev");
+}
+
+- (void)test{
+    NSLog(@"test");
+}
+
+
 
 @end
