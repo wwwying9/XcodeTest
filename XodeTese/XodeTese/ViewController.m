@@ -19,4 +19,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)dev{
+    NSLog(@"dev");
+}
+
 @end
