@@ -23,4 +23,8 @@
     NSLog(@"dev");
 }
 
+- (void)test{
+    NSLog(@"test");
+}
+
 @end
